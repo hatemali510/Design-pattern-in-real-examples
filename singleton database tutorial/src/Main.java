@@ -28,13 +28,10 @@ public class Main {
 				 // Move the cursor to the next row, return false if no more row
 		        	    String title = rset2.getString("title");
 			            int    qty   = rset2.getInt("qty");
-<<<<<<< HEAD
-			            System.out.println(title + " , " + qty);		         
+			            System.out.println(title + " , " + qty);
+
 			     }
-=======
-			            System.out.println(title + " , " + qty);		        
 			 }
->>>>>>> 9c26f5caf011e2900498fb8c23bbf6ff0ebb52c8
 	      } catch(SQLException ex) {
 	    	  	 ex.printStackTrace();
 	      }
